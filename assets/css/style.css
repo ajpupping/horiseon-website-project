@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* Sets the background color for the entire page. */
 body {
     background-color: #d9dcd6;
 }
 
+/* Header settings */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,10 +22,12 @@ header h1 {
     font-size: 48px;
 }
 
+/* Changes the color of the letters "seo" in the Horiseon header. */
 #seo {
     color: #d9dcd6;
 }
 
+/* Navigation link settings */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -41,16 +45,14 @@ nav ul li {
     margin-left: 25px;
 }
 
-a {
+/* Sets the color and style of the navigation links, so they appear white with no underline. */
+nav a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
-.hero {
+/*Source and settings for background image below the header.*/
+.hero-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -59,76 +61,51 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/*Settings for the main content of the page.*/
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.search-engine-optimization {
+/*
+Affects all three of the main blocks of content: 
+search engine optimization, online reputation management, and social media marketing.
+*/
+.services {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
     background-color: #0072bb;
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* Sets the maximum size of all the images in the three main blocks of content. */
+.services img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/* Settings for the headings of all three main blocks of content. */
+.services h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+/* Moves the images in search engine optimization and social media marketing to the left.*/
+.float-left {
+    float: left;
+    margin-right: 25px;
 }
 
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+/* Moves the image in online reputation management to the right. */
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
+/* Setitngs for the sidebar. */
 .sidebar {
     margin-right: 20px;
     padding: 20px;
@@ -140,18 +117,22 @@ main {
     background-color: #2589bd;
 }
 
+/* Settings for the headings in the sidebar. */
 aside h3 {
     margin-bottom: 10px;
     color: #ffffff;
     text-align: center;
 }
 
+/* Settings for text in the sidebar. */
 aside p {
     margin-bottom: 32px;
     color: #ffffff;
     text-align: center;
+    font-size: 16px;
 }
 
+/* Settings for the icon images in the sidebar. */
 aside img {
     display: block;
     margin: 10px auto;
